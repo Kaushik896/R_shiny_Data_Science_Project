@@ -686,6 +686,6 @@ data$f.ov.votes <- f.ov.votes
 #Naming the columns of the dataframe
 colnames(data) <- c("Serial No", "Name", "Platform", "Individual Website", "Starting Year", "Certificate", "Run Time", "Genre", "Overall Rating", "Overall Votes", "Male Rating", "Male Votes", "Female Rating", "Female Votes") 
 
-#Saving the data frame in data.Rdata file in working directory
+#Saving the data frame in data.Rdata file in working directory.
 save(data, file = "data.Rdata")
 
