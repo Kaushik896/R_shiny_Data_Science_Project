@@ -313,7 +313,7 @@ for (i in 1:length(u.gen))
   score[i] <- mean(data1$`Overall Votes`[index])
 }
 
-#selecting only the genres which appears more than 'limit'  number of times
+#selecting only the "genres" which appears more than 'limit'  number of times
 sel.gen <- vector()
 f.score <- numeric()
 index <- 1
